@@ -32,3 +32,32 @@ Contains 150 samples with 4 features (sepal length, sepal width, petal length, p
 
 **GitHub Link:**  
 https://github.com/alimurtaza9dev-ctrl/DataScienceInternship2026_Task1/blob/main/Task1_Iris.ipynb
+
+
+## Task 2: Credit Risk Prediction
+
+### Objective
+Predict whether a loan applicant is likely to default on a loan using machine learning.
+
+### Dataset
+Loan Prediction Dataset (loan_data.csv) – includes information like Gender, Married, Dependents, Education, ApplicantIncome, LoanAmount, Credit_History, etc.
+
+### Approach
+- Loaded dataset using pandas
+- Handled missing values (LoanAmount, Dependents, Self_Employed)
+- Converted categorical columns to numeric using Label Encoding
+- Dropped Loan_ID column (not needed for prediction)
+- Split dataset into training and testing sets
+- Trained Logistic Regression model
+- Made predictions on test data
+
+### Model Evaluation
+- **Accuracy**: Checked using `accuracy_score`
+- **Confusion Matrix**: Showed correct/incorrect predictions
+
+### Insights
+- Credit History, Education, ApplicantIncome, and LoanAmount are important factors
+- The model can help banks decide whether to approve loans
+
+ **GitHub Link:**
+  http://github.com/alimurtaza9dev-ctrl/data-science-internship/blob/main/Task2_CreditRisk.ipynb
