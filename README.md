@@ -61,3 +61,49 @@ Loan Prediction Dataset (loan_data.csv) – includes information like Gender, Ma
 
  **GitHub Link:**
   http://github.com/alimurtaza9dev-ctrl/data-science-internship/blob/main/Task2_CreditRisk.ipynb
+
+
+## Task 3: Customer Churn Prediction (Bank Customers)
+
+### Objective
+Predict which bank customers are likely to leave the bank (customer churn) using machine learning techniques.
+
+### Dataset
+Churn Modelling Dataset (churn.csv)
+
+The dataset contains customer information such as:
+- CreditScore
+- Geography
+- Gender
+- Age
+- Tenure
+- Balance
+- Number of Products
+- Credit Card ownership
+- Active member status
+- Estimated Salary
+- Exited (target variable indicating churn)
+
+### Approach
+- Loaded dataset using pandas
+- Removed unnecessary columns (RowNumber, CustomerId, Surname)
+- Checked for missing values
+- Converted categorical features (Gender, Geography) into numeric form using Label Encoding
+- Split dataset into training and testing sets
+- Trained Decision Tree classification model
+- Predicted customer churn on test dataset
+- Analyzed feature importance to identify key factors affecting churn
+
+### Model Evaluation
+- Accuracy score used to measure model performance
+- Confusion matrix used to evaluate correct and incorrect predictions
+- Feature importance used to understand which variables most influence churn
+
+### Insights
+- Age, Balance, Geography, and Credit Score significantly influence customer churn
+- Customers with higher balances and certain demographics show higher probability of leaving
+- Model helps banks identify customers at risk of leaving and take preventive actions
+
+**GitHub Link:**
+
+https://github.com/alimurtaza9dev-ctrl/DataScienceInternship2026_Task1/blob/main/Task3_Churn.ipynb
