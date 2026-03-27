@@ -107,3 +107,21 @@ The dataset contains customer information such as:
 **GitHub Link:**
 
 https://github.com/alimurtaza9dev-ctrl/DataScienceInternship2026_Task1/blob/main/Task3_Churn.ipynb
+
+
+## Task 4: Insurance Cost Prediction
+
+Objective:
+Predict medical insurance charges using Linear Regression.
+
+Steps:
+- Encoded categorical features
+- Split dataset into training and testing sets
+- Applied Linear Regression model
+- Evaluated performance using MAE, MSE, R2 score
+
+Result:
+Model predicts insurance charges based on age, BMI, smoking habits, and region.
+
+**GitHub Link:**
+
