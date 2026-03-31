@@ -126,3 +126,38 @@ Model predicts insurance charges based on age, BMI, smoking habits, and region.
 **GitHub Link:**
 
  https://github.com/alimurtaza9dev-ctrl/-DataScience__Internship___2026-/blob/main/Task4_Insurance.ipynb
+
+
+## Task 5: Personal Loan Acceptance Prediction
+
+**Objective:**  
+Predict which customers are likely to accept a personal loan offer using customer data.
+
+**Dataset:**  
+Bank Marketing / Loan Prediction dataset (CSV format)
+
+**Steps Performed:**  
+1. Explored dataset and checked missing values.  
+2. Handled missing data by filling with mean/mode for numerical/categorical features.  
+3. Encoded categorical features (Gender, Married, Education, Self_Employed, Property_Area) using Label Encoding.  
+4. Split dataset into training and testing sets (80%-20%).  
+5. Trained a classification model using **Random Forest Classifier**.  
+6. Made predictions on the test set.  
+7. Evaluated model performance using **accuracy score**.
+
+**Results:**  
+- The model predicts which customers are more likely to accept a personal loan offer.  
+- Achieved accuracy: ~75–85% (may vary depending on dataset and preprocessing).  
+
+**Key Insights:**  
+- Customer income, credit history, and education play a significant role in loan acceptance.  
+- Random Forest helps capture non-linear relationships better than simple Logistic Regression.  
+
+**Tools & Libraries Used:**  
+- Python  
+- pandas, numpy  
+- scikit-learn  
+- Jupyter Notebook
+
+**GitHub Link:**
+https://github.com/alimurtaza9dev-ctrl/-DataScience__Internship___2026-/blob/main/Task5_Loan.ipynb
