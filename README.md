@@ -161,3 +161,23 @@ Bank Marketing / Loan Prediction dataset (CSV format)
 
 **GitHub Link:**
 https://github.com/alimurtaza9dev-ctrl/-DataScience__Internship___2026-/blob/main/Task5_Loan.ipynb
+## Advanced Task 6: Term Deposit Subscription Prediction
+
+**Objective:** Predict whether a customer will subscribe to a term deposit after a marketing campaign.
+
+**Approach:**
+- Explored dataset and encoded categorical features
+- Trained Logistic Regression and Random Forest models
+- Evaluated models using Confusion Matrix, F1 Score, and ROC Curve
+- Explained top 5 predictions using SHAP for model interpretability
+
+**Results:**
+- Random Forest performed slightly better than Logistic Regression
+- Key influential features: `duration`, `poutcome`, `balance`, `campaign`, `age`
+
+**Tools Used:** Python, pandas, numpy, scikit-learn, matplotlib, seaborn, shap
+
+
+
+**GitHub Link:**
+https://github.com/alimurtaza9dev-ctrl/-DataScience__Internship___2026-/blob/main/Task6_TermDeposit.ipynb
