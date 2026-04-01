@@ -180,4 +180,82 @@ https://github.com/alimurtaza9dev-ctrl/-DataScience__Internship___2026-/blob/mai
 
 
 **GitHub Link:**
+
 https://github.com/alimurtaza9dev-ctrl/-DataScience__Internship___2026-/blob/main/Task6_TermDeposit.ipynb
+
+
+## Advanced Task 7: Customer Segmentation using Unsupervised Learning
+
+### Objective
+Segment customers into different groups based on their purchasing behavior and income level. The goal is to help businesses understand customer patterns and design targeted marketing strategies.
+
+### Dataset
+Mall Customers Dataset
+
+The dataset contains customer demographic and spending information:
+- Age
+- Annual Income (k$)
+- Spending Score (1-100)
+- Gender
+- CustomerID
+
+### Approach
+
+1. Data Exploration
+- Loaded dataset using pandas
+- Checked structure, column types, and summary statistics
+
+2. Feature Selection
+Selected important numerical features:
+- Age
+- Annual Income
+- Spending Score
+
+3. Data Preprocessing
+- Applied StandardScaler to normalize data
+- Prepared dataset for clustering
+
+4. Model Building – K-Means Clustering
+- Used Elbow Method to determine optimal number of clusters
+- Applied K-Means algorithm to group customers into segments
+
+5. Dimensionality Reduction
+- Used PCA (Principal Component Analysis) to visualize clusters in 2D space
+
+6. Visualization
+- Scatter plots created to display customer segments
+- Identified clear cluster separation
+
+### Results & Insights
+
+The model grouped customers into 5 distinct segments:
+
+Cluster examples:
+- High income, high spending customers → premium target group
+- Low income, low spending customers → discount-focused group
+- Medium income, high spending customers → marketing opportunity
+- High income, low spending customers → potential growth segment
+
+### Business Value
+
+Customer segmentation helps businesses:
+- improve targeted marketing
+- personalize promotions
+- increase customer satisfaction
+- improve sales performance
+
+### Tools & Libraries Used
+- Python
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- scikit-learn
+
+### Conclusion
+
+K-Means clustering successfully identified meaningful customer groups. Businesses can use these insights to develop more effective marketing strategies and improve decision-making.
+
+**GitHub Link:**
+
+https://github.com/alimurtaza9dev-ctrl/-DataScience__Internship___2026-/blob/main/Task7_CustomerSegmentation.ipynb
