@@ -259,3 +259,31 @@ K-Means clustering successfully identified meaningful customer groups. Businesse
 **GitHub Link:**
 
 https://github.com/alimurtaza9dev-ctrl/-DataScience__Internship___2026-/blob/main/Task7_CustomerSegmentation.ipynb
+
+
+# Task 8: Energy Consumption Time Series Forecasting
+
+**Objective:** Forecast daily household energy usage using historical data.
+
+**Dataset:** Household Power Consumption (CSV)
+
+**Approach:**
+- Cleaned and preprocessed dataset (combined Date + Time)
+- Resampled to daily average
+- Split data into training (80%) and testing (20%)
+- Trained ARIMA(5,1,0) model
+- Forecasted daily consumption
+- Evaluated using MAE and RMSE
+- Visualized actual vs predicted consumption
+
+**Results:**
+- MAE: <calculated_value>
+- RMSE: <calculated_value>
+
+**Insights:**
+- ARIMA captures overall trends
+- Seasonal trends can be further explored
+
+**GitHub Link:**
+
+https://github.com/alimurtaza9dev-ctrl/-DataScience__Internship___2026-/blob/main/Task8_EnergyForecast.ipynb
