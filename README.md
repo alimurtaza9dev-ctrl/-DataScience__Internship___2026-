@@ -287,3 +287,89 @@ https://github.com/alimurtaza9dev-ctrl/-DataScience__Internship___2026-/blob/mai
 **GitHub Link:**
 
 https://github.com/alimurtaza9dev-ctrl/-DataScience__Internship___2026-/blob/main/Task8_EnergyForecast.ipynb
+
+
+# 🏦 Task 9: Loan Default Risk Prediction (Data Science Internship)
+
+## 📌 Project Overview
+This project is **Task 9** of my Data Science Internship. It focuses on building a **machine learning model to predict loan default risk** using borrower financial and demographic data.
+
+The objective is to help financial institutions identify high-risk applicants and reduce loan default losses using data-driven decisions.
+
+---
+
+## 🎯 Task Objective (Task 9)
+- Perform data preprocessing and cleaning
+- Conduct Exploratory Data Analysis (EDA)
+- Build a classification model for loan default prediction
+- Evaluate model performance using appropriate metrics
+- Interpret key features affecting loan default risk
+
+---
+
+## 📊 Dataset Description
+The dataset contains applicant financial information such as:
+
+- Loan amount  
+- Applicant income  
+- Credit history  
+- Employment status  
+- Loan term  
+- Marital status and other demographic features  
+
+> 🎯 **Target Variable:** Loan Default Risk  
+> (0 = No Default, 1 = Default)
+
+---
+
+## 🧠 Machine Learning Workflow
+
+### 1. Data Preprocessing
+- Handling missing values
+- Encoding categorical variables
+- Feature scaling and transformation
+
+### 2. Exploratory Data Analysis (EDA)
+- Data distribution analysis
+- Correlation heatmaps
+- Identifying risk patterns in applicants
+
+### 3. Model Building
+Machine learning models applied:
+- Logistic Regression  
+- Decision Tree Classifier  
+- Random Forest Classifier  
+
+### 4. Model Evaluation
+- Accuracy Score  
+- Confusion Matrix  
+- Precision, Recall, F1-Score  
+- ROC-AUC (if applied)  
+
+---
+
+## 🛠️ Technologies Used
+- Python 🐍  
+- Pandas & NumPy  
+- Matplotlib & Seaborn  
+- Scikit-learn  
+- Jupyter Notebook  
+
+---
+
+## 📈 Key Insights
+- Credit history is one of the strongest predictors of loan default
+- Higher loan amounts increase default risk probability
+- Machine learning models can effectively classify risky applicants
+
+---
+
+## 🚀 Project Outcome
+This Task 9 project helps in:
+- Predicting loan default risk accurately  
+- Supporting banks in making smarter loan approval decisions  
+- Reducing financial risk using machine learning  
+
+**GitHub Link:**
+
+https://github.com/alimurtaza9dev-ctrl/-DataScience__Internship___2026-/blob/main/Task_9_Loandefaultrisk.ipynb
